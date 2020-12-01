@@ -18,3 +18,4 @@
 	ck = checkout
 	brls = branch --list
 	rsh1 = reset HEAD~1
+	rpo = remote prune origin

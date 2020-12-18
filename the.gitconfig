@@ -19,3 +19,4 @@
 	brls = branch --list
 	rsh1 = reset HEAD~1
 	rpo = remote prune origin
+	dlremote = ps origin --delete `git br --show-current`

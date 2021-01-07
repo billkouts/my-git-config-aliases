@@ -20,3 +20,4 @@
 	rsh1 = reset HEAD~1
 	rpo = remote prune origin
 	dlremote = !git ps origin --delete `git branch --show-current`
+	rebaseom = rebase origin/master

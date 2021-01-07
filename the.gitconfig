@@ -5,7 +5,7 @@
 	dno = diff --name-only
 	dnoc = diff --name-only --cached
 	brdescr = branch --edit-description
-	curbr = rev-parse --abbrev-ref HEAD
+	branchname = rev-parse --abbrev-ref HEAD
 	psuo = "!git push --set-upstream origin $(git symbolic-ref --short HEAD)"
 	br = branch
 	cm = commit
